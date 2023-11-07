@@ -1,0 +1,30 @@
+.main {
+  h1 {
+    text-align: center;
+    margin: 50px;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+  }
+
+  .grille {
+    margin: auto;
+    padding: auto;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  .next,
+  .previous {
+    width: 25%;
+    margin: 10px;
+    height: 70%;
+  }
+}

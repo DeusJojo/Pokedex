@@ -1,0 +1,51 @@
+:root {
+  --acier: #0e7490;
+  --combat: #f97316;
+  --dragon: #4f46e5;
+  --eau: #2563eb;
+  --electrik: #facc15;
+  --fee: #f472b6;
+  --feu: #dc2626;
+  --glace: #22d3ee;
+  --insecte: #84cc16;
+  --normal: #a3a3a3;
+  --plante: #16a34a;
+  --poison: #7e22ce;
+  --psy: #f43f5e;
+  --roche: #b0aa82;
+  --sol: #92400e;
+  --spectre: #4a044e;
+  --tenebres: #020617;
+  --vol: #7dd3fc;
+  --unknow: #689a8d;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+  }
+
+  .numero {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .name {
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+  }
+
+  .icon {
+    margin-left: 20px;
+    color: white;
+    vertical-align: middle;
+  }
+}

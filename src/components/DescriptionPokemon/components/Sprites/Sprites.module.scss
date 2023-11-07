@@ -1,0 +1,284 @@
+.main {
+  grid-column: 1;
+  grid-row: 1 / 6;
+
+  .acier,
+  .combat,
+  .dragon,
+  .eau,
+  .electrik,
+  .fee,
+  .feu,
+  .glace,
+  .insecte,
+  .normal,
+  .plante,
+  .poison,
+  .psy,
+  .roche,
+  .sol,
+  .spectre,
+  .tenebres,
+  .vol,
+  .unknow {
+    display: flex;
+    flex-direction: column;
+  }
+  img {
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    padding: auto;
+  }
+
+  .iconShiny {
+    height: 50px;
+    width: 50px;
+  }
+
+  .images {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 540px;
+    right: 980px;
+    z-index: 9999;
+  }
+
+  .icon {
+    position: absolute;
+    top: 370px;
+    right: 970px;
+    z-index: 2;
+  }
+
+  .acier {
+    background-image: url("../../../../assets/img/acier.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Autres propriétés facultatives */
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    filter: blur(4px);
+  }
+  .combat {
+    background-image: url("../../../../assets/img/combat.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Autres propriétés facultatives */
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    filter: blur(4px);
+  }
+  .dragon {
+    background-image: url("../../../../assets/img/dragon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Autres propriétés facultatives */
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    filter: blur(4px);
+  }
+  .eau {
+    background-image: url("../../../../assets/img/eau.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Autres propriétés facultatives */
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    filter: blur(4px);
+  }
+  .electrik {
+    background-image: url("../../../../assets/img/electrik.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Autres propriétés facultatives */
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    filter: blur(4px);
+  }
+  .fee {
+    background-image: url("../../../../assets/img/fee.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Autres propriétés facultatives */
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    filter: blur(4px);
+  }
+  .feu {
+    background-image: url("../../../../assets/img/feu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Autres propriétés facultatives */
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    filter: blur(4px);
+  }
+  .glace {
+    background-image: url("../../../../assets/img/glace.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Autres propriétés facultatives */
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    filter: blur(4px);
+  }
+  .insecte {
+    background-image: url("../../../../assets/img/insecte.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Autres propriétés facultatives */
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    filter: blur(4px);
+  }
+  .normal {
+    background-image: url("../../../../assets/img/normal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Autres propriétés facultatives */
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    filter: blur(4px);
+  }
+  .plante {
+    background-image: url("../../../../assets/img/plante.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Autres propriétés facultatives */
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    filter: blur(4px);
+  }
+  .poison {
+    background-image: url("../../../../assets/img/poison.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Autres propriétés facultatives */
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    filter: blur(4px);
+  }
+  .psy {
+    background-image: url("../../../../assets/img/psy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Autres propriétés facultatives */
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    filter: blur(4px);
+  }
+  .roche {
+    background-image: url("../../../../assets/img/roche.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Autres propriétés facultatives */
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    filter: blur(4px);
+  }
+
+  .sol {
+    background-image: url("../../../../assets/img/sol.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Autres propriétés facultatives */
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    filter: blur(4px);
+  }
+  .spectre {
+    background-image: url("../../../../assets/img/spectre.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Autres propriétés facultatives */
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    filter: blur(4px);
+  }
+  .tenebres {
+    background-image: url("../../../../assets/img/tenebre.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Autres propriétés facultatives */
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    filter: blur(4px);
+  }
+  .vol {
+    background-image: url("../../../../assets/img/vol.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Autres propriétés facultatives */
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    filter: blur(4px);
+  }
+  .unknow {
+    background-image: url("../../../../assets/img/vol.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Autres propriétés facultatives */
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    filter: blur(4px);
+  }
+}

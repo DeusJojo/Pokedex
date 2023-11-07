@@ -1,0 +1,51 @@
+.main {
+  width: 100%;
+  height: 20px;
+  background-color: #e5e5e5;
+  border-radius: 5px;
+
+  span {
+    color: white;
+    font-weight: 600;
+    font-size: large;
+  }
+
+  .verybad,
+  .bad,
+  .meh,
+  .bof,
+  .correct,
+  .nice,
+  .veryNice {
+    min-width: 5%;
+    height: 100%;
+    transition: width 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 0;
+    border-radius: 5px;
+  }
+
+  .verybad {
+    background-color: #cc0000;
+  }
+  .bad {
+    background-color: #cc5200;
+  }
+  .meh {
+    background-color: #cc7d00;
+  }
+  .bof {
+    background-color: #ccc500;
+  }
+  .correct {
+    background-color: #95cc00;
+  }
+  .nice {
+    background-color: #60cc00;
+  }
+  .veryNice {
+    background-color: #00a8cc;
+  }
+}

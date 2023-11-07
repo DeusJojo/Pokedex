@@ -1,0 +1,30 @@
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a {
+    text-decoration: none;
+  }
+
+  .numero {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-right: 5px;
+  }
+
+  .name {
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+  }
+
+  .icon {
+    margin-right: 20px;
+    color: white;
+    font-size: 2rem;
+    vertical-align: middle;
+  }
+}

@@ -1,0 +1,33 @@
+.main {
+  .arrowUp {
+    position: fixed;
+    right: 1%;
+    top: 20%;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .arrowDown {
+    position: fixed;
+    right: 1%;
+    bottom: 20%;
+    cursor: pointer;
+    z-index: 1;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    .arrowUp {
+      position: fixed;
+      right: 1%;
+      top: 10px;
+    }
+
+    .arrowDown {
+      position: fixed;
+      right: 1%;
+      bottom: 10px;
+    }
+  }
+}

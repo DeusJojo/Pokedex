@@ -1,0 +1,100 @@
+.main {
+  grid-column: 2;
+  grid-row: 3;
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 450px;
+    margin-bottom: 5px;
+  }
+
+  .acier,
+  .combat,
+  .dragon,
+  .eau,
+  .electrik,
+  .fee,
+  .feu,
+  .glace,
+  .insecte,
+  .normal,
+  .plante,
+  .poison,
+  .psy,
+  .roche,
+  .sol,
+  .spectre,
+  .tenebres,
+  .vol {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 120px;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+
+  .acier {
+    background-color: #0e7490;
+  }
+  .combat {
+    background-color: #f97316;
+  }
+  .dragon {
+    background-color: #4f46e5;
+  }
+  .eau {
+    background-color: #2563eb;
+  }
+  .electrik {
+    background-color: #facc15;
+  }
+  .fee {
+    background-color: #f472b6;
+  }
+  .feu {
+    background-color: #dc2626;
+  }
+  .glace {
+    background-color: #22d3ee;
+  }
+  .insecte {
+    background-color: #84cc16;
+  }
+  .normal {
+    background-color: #a3a3a3;
+  }
+  .plante {
+    background-color: #16a34a;
+  }
+  .poison {
+    background-color: #7e22ce;
+  }
+  .psy {
+    background-color: #f43f5e;
+  }
+  .roche {
+    background-color: #b0aa82;
+  }
+  .sol {
+    background-color: #92400e;
+  }
+  .spectre {
+    background-color: #4a044e;
+  }
+  .tenebres {
+    background-color: #020617;
+  }
+  .vol {
+    background-color: #7dd3fc;
+  }
+  .unknow {
+    background-color: #689a8d;
+  }
+}
